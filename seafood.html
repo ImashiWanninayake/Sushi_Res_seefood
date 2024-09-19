@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  
+  .row {
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+ 
+  .column {
+    -ms-flex: 25%; 
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+ 
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  .topright {
+            position: absolute;
+            top: 8px;
+            right: 16px;
+            font-size: 18px;
+    }
+  </style>
+  <body>
+  
+    <h1 style="font-family:Italic; font-size: 40px;">Sea Food Gallery</h1>
+    <div class="topright">
+      <img src="log.png" width="200" height="170">
+    </div>
+    <hr>
+ 
+  
+
+  <div class="row"> 
+    <div class="column">
+      <img src="1.jpg" style="width:100%">
+      <img src="1dc5155eea56fa076518a6b0b1b653b9.jpg" style="width:100%">
+      <img src="2e64102df925f414b8910f226615d142.jpg" style="width:100%">
+      <img src="18d8307eeb7b0e40d20e25652e4a5141.jpg" style="width:100%">
+      
+      
+    </div>
+
+  <div class="column">
+    <img src="amaebi.jpg" style="width:100%">
+    <img src="b674d632e256e785a9ebe1d99caf9431.jpg" style="width:100%">
+    <img src="f07103cbd605d39b55973ae921007cf0.jpg" style="width:100%">
+    <img src="salman belly.jpg" style="width:100%">
+    <img src="salman tataki.jpg" style="width:100%">
+    <img src="sashimi 5.jpg" style="width:100%">
+    
+  </div>
+
+  <div class="column">
+    <img src="sea food 4.jpg" style="width:100%">
+    <img src="sea food 6.jpg" style="width:100%">
+    <img src="sea food.jpg" style="width:100%">
+    <img src="sea urchin    uni.jpg" style="width:100%">
+    <img src="sea urchin   uni.jpg" style="width:100%">
+    <img src="uni sea urchin 2.jpg" style="width:100%">
+    
+  </div>
+
+  <div class="column">
+    <img src="sashimi.jpg" style="width:100%">
+    <img src="59cb4021b420c9c6a47979e30c80453d.jpg" style="width:100%">
+    <img src="30abcafc15079c58f01ebd727cdddf29.jpg" style="width:100%">
+    <img src="409edeaba9a85fc1c7d30243f06045ac.jpg" style="width:100%">
+    <img src="uni sea urchin3.jpg" style="width:100%">
+  </div>
+
+  
+</div>
+  
+</body>
+</html>
